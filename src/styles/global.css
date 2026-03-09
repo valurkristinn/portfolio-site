@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Helvetica Neue", sans-serif;
+}
+
+::view-transition-group(highlight) {
+  animation-duration: 0.4s;
+  animation-timing-function: ease-in-out;
+}
